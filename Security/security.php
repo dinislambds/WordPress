@@ -58,7 +58,7 @@ add_filter('script_loader_src', 'shapeSpace_remove_version_scripts_styles', 9999
 4// BBQ - Block Bad Queries
 5 // Exploit Scanner
 6// WP Health (Formerly My WP Health Check)
-// All in One WP Secuirty - Will solve all above issue :)
+** // All in One WP Secuirty - Will solve all above issue :)
 
 
 ## Beware about below code/functions
