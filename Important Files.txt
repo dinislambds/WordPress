@@ -1,0 +1,25 @@
+1. index.php
+2. style.css
+3. functions.php
+4. screenshot.png (600 X 450px)
+5. header.php
+6. footer.php
+=================
+7. single.php - Single blog post
+8. page.php - Single page
+6. 404.php - Not found page
+10. search.php - Search result
+11. archive.php
+12. sidebar.php
+13. tag.php
+14. author.php // Author posts archieve
+15. date.php // date/month/year posts archieve
+16. comments.php //Comment template
+
+
+
+Plugins
+=============
+1. Developer (Debug bar/ Monster Widget/ Regenrate Thumbnail/ User Switching/ Theme Check)
+2. Post Meta Inspector
+3. Show Current Template

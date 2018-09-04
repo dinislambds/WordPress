@@ -1,0 +1,16 @@
+
+
+// we are able to add button like WP default Editor using TinyMCE.
+
+// Instructions is below:
+
+1. First Add tinyMCE.php file in inc folder or paste code in functions.php 
+2. Add JS file in theme js folder.
+// Enjoy
+
+** Ebit : 48, 49 tutorial!
+
+
+
+// Find more : https://www.wpexplorer.com/wordpress-tinymce-tweaks/
+

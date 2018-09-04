@@ -1,0 +1,16 @@
+1. Download the latest release, preferably using the Custom TGMPA Generator for theeme text domain and custom prefix functions need.
+
+2. Drop the class file(class-tgm-plugin-activation.php) somewhere in your theme or plugin hierarchy. (lib folder)
+
+3. Rename the example.php like tgm.php and require once in functions.php like:
+require_once( get_theme_file_path( '/inc/tgm.php' ) ); 
+
+4. Go back in tgm.php and require_once the library like below:
+require_once get_theme_file_path( '/lib/class-tgm-plugin-activation.php' );
+
+
+** example is the sample work to see how to add plugins
+
+** Ebit tutorial : 50
+** More details : http://tgmpluginactivation.com/installation/
+** LWHH : 16.4

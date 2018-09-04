@@ -1,0 +1,9 @@
+// We can export all our custom fields the theme using ACF > Tools > Export as PHP
+
+// Then place those codes in a file in theme like inc > acf-mb.php
+// And then require_once get_theme_file_path('/inc/acf-mb.php'); in functions.php
+
+// ACF plugin should be installed!
+
+
+// More on LWHH > Chapter 16

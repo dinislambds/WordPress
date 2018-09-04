@@ -1,0 +1,22 @@
+1. Download latest zip from github
+
+2. Remove extra files just keep-
+- ReduxCore, Sample folder
+- class.redux.plugin.php
+- index.php
+- license
+- redux.framework.php
+
+3. require_once the php file needed as below-
+require_once('inc/redux-framework-master/redux-framework.php');
+require_once('inc/custom-sample-options.php');     
+
+// custom-sample-options.php is the new custom coding file copied from sample-config.php
+
+4. Enjoy!
+
+
+** Do not modify/edit sample-config.php file (Can be issue if take update in future) but copy the file and edit as you need
+** Ebit - 37 // Softtechit - 12
+
+** Documentation - https://docs.reduxframework.com

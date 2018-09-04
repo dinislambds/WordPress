@@ -1,0 +1,30 @@
+LWHH SYSTEM
+============
+1. install and activate cmb2 plugin (Also "cmb2-conditionals" for conditional fileds)
+2. Then we can achieve required fields code from CMB2 metabox generator here: http://willthemoor.github.io/cmb2-metabox-generator/
+3. Generate metabox and copy codes
+4. Add a file in inc > cmb2-mb.php and paste all code there.
+5. Add a piece of code in functions.php to include that above file: require_once get_theme_file_path('/inc/cmb2-mb.php');
+
+// LWHH - Chapter -17
+
+** Ebit - 39 - https://youtu.be/uBE9REoYrE4
+** Soft Tech - 20
+
+** Basic usage details - https://github.com/CMB2/CMB2/wiki/Basic-Usage
+
+// OLD SYSTEM
+================
+1. Download the zip file from github and keep folder and file named - example-functions, init, index, bootstrap.php from cmb2 folder
+
+2. Keep the full cmb2 folder in theme directory or plugins or inc folder
+
+3. Create a custom functions file(like- cmb2-custom-field.php) for our own custom metabox code and include the cmb2  init file like-
+if ( file_exists(  __DIR__ . '/cmb2/init.php' ) ) {
+  require_once  __DIR__ . '/cmb2/init.php';
+} elseif ( file_exists(  __DIR__ . '/CMB2/init.php' ) ) {
+  require_once  __DIR__ . '/CMB2/init.php';
+}
+
+4. Include the custom functions "cmb2-custom-field.php" file in functions.php like- 
+include_once('inc/cmb2-custom-field.php');

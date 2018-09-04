@@ -1,0 +1,30 @@
+// https://www.youtube.com/watch?v=dX5hh98fNkQ
+// LWHH 201.1
+
+1. This edit is manual.. one by one string
+
+2. Download the poedit from : https://poedit.net, Install on your PC
+
+3. On your theme directory create a folder named: languages
+So, in functions.php you should have:
+load_theme_textdomain( "philosophy", get_theme_file_path('/languages') ); //"philosophy->text domain"
+in after_setup_theme hook!
+
+4. Open PO Edit software > File > New > English (Default Language) and "save" to your theme root directory > languages - folder! Save as "en_US.po" as default english!
+
+5. Configure po edit softwar > Catelog> Properties > Source path > "Show the theme root directory"
+Also, Exclude paths like assets folder (css/js) / Markup. 
+
+Then, Catalog > Update from source > Save! (So, All string will save into "en_US.po" from theme root directory!)
+
+** po edit should translate only .php file so exclude rest file formats path!
+
+6. You can copy the "en_US.po" and save as "theme-domain.pot" (pot is the main translatable file format)
+So, Now we can copy this and save as "bn_BN.po" to translate the website! 
+
+** So, bn_BN.mo will create automatically as php only read .mo file. .po file for future edit!
+
+So, tranlatable file will only work when your website call that file from language option.
+If we want to work the "bn_BN.po" so we have to save admin dashboard > setting > general > language > bangla!
+
+We can see all the internation language format here: https://wpcentral.io/internationalization/
