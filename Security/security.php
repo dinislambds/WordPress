@@ -93,8 +93,8 @@ add_action('after_setup_theme', 'shapeSpace_block_proxy_visits');
 
 // Exploit Scanner plugin check those codes
 
-eval()
-base64
+// eval
+// base64
 
 
 
