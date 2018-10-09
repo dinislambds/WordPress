@@ -79,13 +79,13 @@ add_action('after_setup_theme', 'shapeSpace_block_proxy_visits');
 ## Remove Version Number from Source URL + Feed
 #=========================================================================
 
-1 // Akistmet - For Spam Comment
-2 // Stop User Enumeration - User permalink is forbiden
-3// Activity Log - Who doing what - check
-4// BBQ - Block Bad Queries
-5 // Exploit Scanner
-6// WP Health (Formerly My WP Health Check)
-**// All in One WP Secuirty - Will solve all above issue :)
+// 1 // Akistmet - For Spam Comment
+// 2 // Stop User Enumeration - User permalink is forbiden
+// 3// Activity Log - Who doing what - check
+// 4// BBQ - Block Bad Queries
+// 5 // Exploit Scanner
+// 6// WP Health (Formerly My WP Health Check)
+// **// All in One WP Secuirty - Will solve all above issue :)
 
 
 ## Beware about below code/functions
