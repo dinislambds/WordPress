@@ -1,2 +1,0 @@
-// get_the_date
-// the_tags
