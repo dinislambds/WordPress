@@ -1,14 +1,14 @@
 <?php 
 
-755 = Read / Write / Execute
-644 = Read / Writer for Administrator && Only read for Other(Group/User)
+// 755 = Read / Write / Execute
+// 644 = Read / Writer for Administrator && Only read for Other(Group/User)
 
 ## Remove unused/unnecessary WordPress files
 #=========================================================================
 
-1// readme.html
-2// config-sample.php
-3// license.txt
+// readme.html
+// config-sample.php
+// license.txt
 
 
 
